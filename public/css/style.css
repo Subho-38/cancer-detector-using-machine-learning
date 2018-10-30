@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'GeosansLight';
+    font-style: normal;
+    font-weight: 10px;
+    src: local('GeosansLight'), url('GeosansLight.woff') format('woff');
+}
+
+
+.navbar-survival101 {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-nav>li {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 7vh
+}
+
+.navbar-nav {
+    font-size: 2.8vh;
+    font-family: 'GeosansLight';
+    font-weight: 900;
+}
+
+.navbar {
+    position: absolute;
+    font-family: 'GeosansLight';
+}
+
+.navbar-brand {
+    font-size: 5vh;
+    letter-spacing: 0.5vh;
+}
+
+.navbar-survival101 .navbar-brand img {
+    vertical-align: baseline;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link {
+    font-family: 'GeosansLight';
+    font-style: normal;
+}
+
+#arc {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/main.jpg);
+    /* Set a specific height */
+    height: 120vh;
+    padding: 10vh;
+    /*Padding */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    text-align: center;
+    padding: 5vh;
+    flex-direction: column
+
+}
+.t1{
+    font-family: 'GeosansLight';
+  font-size: 9vh;
+  font-weight: 900;
+  letter-spacing: 0.5vh;
+  color: white
+}
+
+.t2{
+    display: flex;
+    margin-top: 5vh;
+    font-weight: 900;
+    font-size: 4vh;
+    font-family: 'GeosansLight';
+    letter-spacing: 0.5vh;
+    color: white;
+}
+
+.l{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-color: rgba(0, 0, 0, 0.63);
+    font-weight: 900;
+    color: white;
+    width: 20vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      font-family: 'GeosansLight';
+    text-align: center;
+    font-size: 2.2vh;
+}
+.l-text{
+  text-align: center;
+  font-size: 2.5vh;
+};
+.c-test{
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.test{
+    background-color: #000000;
+    font-weight: 900;
+    color: white;
+    width: 20vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      font-family: 'GeosansLight';
+    text-align: center;
+    font-size: 2.2vh;
+}
+.c-text{
+    text-align: center;
+  font-size: 2.5vh;
+  flex:1;
+}
+.icon{
+    font-size: 9vh;
+    margin-top: 20vh;
+    display: flex;
+
+    color: white;
+    cursor: pointer;
+}
+
+#detect{
+    justify-content: center;
+    /* Set a specific height */
+    display: flex;
+    height: 100vh;
+    padding: 10vh;
+    /*Padding */
+    /* Create the parallax scrolling effect */
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.h{
+    font-size: 7vh;
+}
+.why{
+    font-size: 4vh;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#awarness{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/awarness.jpg);
+    height: 100vh;
+    padding: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#treatment{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/treatment.jpg);
+    height: 90vh;
+    padding: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head-a{
+    font-family: Georgia;
+    font-size: 7vh;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.body-a{
+    font-family: Georgia;
+    color: white;
+    font-size: 2.7vh;
+}
+@media only screen and (max-width:660px)
+{
+  .body-a{
+    font-family: Georgia;
+    color: white;
+    font-size: 2.4vh;
+  }
+    .head-a{
+      font-family: Georgia;
+      font-size: 4vh;
+      display: flex;
+      text-align: center;
+      color: white;
+  }
+  .why{
+    font-size: 2vh;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+
+  .body-a{
+    font-family: Georgia;
+    color: white;
+    font-size: 1.8vh;
+  }
+    .head-a{
+      font-family: Georgia;
+      font-size: 2.8vh;
+      display: flex;
+      text-align: center;
+      color: white;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+  .test{
+    font-size: 1.5vh;
+  }
+}
+
+.t1{
+  font-family: 'GeosansLight';
+font-size: 6vh;
+font-weight: 900;
+letter-spacing: 0.5vh;
+color: white
+}
+
+.t2{
+  display: flex;
+  margin-top: 2vh;
+  font-weight: 900;
+  font-size: 2.5vh;
+  font-family: 'GeosansLight';
+  letter-spacing: 0.5vh;
+  color: white;
+}
+
+}
+ul {
+    list-style: none
+  }
+  .flex-rw {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  main {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-family: 'GeosansLight';
+    font-size: 8em;
+    line-height: 1;
+  }
+
+
+footer {
+    background: black;
+    margin-top: auto;
+    width: 100%;
+  }
+  .footer-list-top {
+    width: 30%;
+  }
+  .footer-list-top > li {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .footer-list-header {
+    padding: 10px 0 5px 0;
+    color: #fff;
+    font-family: 'GeosansLight';
+    font-size: 5vh;
+  }
+  .footer-list-anchor {
+    font-family: 'GeosansLight';
+    font-size: 2.5vh;
+    color: white;
+  }
+  .footer-social-section {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 5px;
+  }
+  .footer-social-section::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+  .footer-social-overlap {
+    position: relative;
+    z-index: 2;
+    padding: 0 20px
+  }
+  .footer-social-connect {
+    display: flex;
+    align-items: center;
+      font-family: 'GeosansLight';
+    font-size: 3.5em;
+    color: #fff
+  }
+  .footer-social-small {
+    font-size: 0.6em;
+    padding: 0px 20px
+  }
+  .footer-social-overlap > a {
+    font-size: 3em
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0.38em
+  }
+  .footer-bottom-section {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer-bottom-section > div:first-child {
+    margin-right: auto
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.5em;
+  }
+  .footer-bottom-rights{
+    color: white;
+  }
+  .footer-address {
+    display: inline;
+    font-style: normal
+  }
+  @media only screen and (max-width: 768px) {
+    .footer-list-header {
+      font-size: 1.8em
+    }
+    .footer-list-anchor {
+      font-size: 1.1em
+    }
+    .footer-social-connect {
+      font-size: 2.5em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.3em
+    }
+  }
+  @media only screen and (max-width: 568px) {
+    main {
+      font-size: 4em
+    }
+    .footer-list-top {
+      width: 100%
+    }
+    .footer-list-header {
+      font-size: 2.3em;
+    }
+    .footer-list-anchor {
+      font-size: 1em
+    }
+    .footer-social-section {
+      justify-content: center
+    }
+    .footer-social-section::after {
+      top: 25%
+    }
+    .footer-social-connect {
+      margin-bottom: 10px;
+      padding: 0 10px
+    }
+    .footer-social-overlap {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-social-icons-wrapper {
+      width: 100%;
+      padding: 0
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 20px;
+    }
+    .footer-bottom-section {
+      padding: 0 5px 10px 5px
+    }
+    .footer-bottom-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .footer-social-overlap > a {
+      margin: auto
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 0;
+    }
+    .footer-bottom-rights {
+      display: block;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .footer-list-header {
+      font-size: 1.5 em
+    }
+    .footer-list-anchor {
+      font-size: 1 em
+    }
+    .footer-social-connect {
+      font-size: 2.1em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.1em
+    }
+  }
+  li{
+    color: white;
+  }
+  i{
+    color: white;
+  }
+  
