@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V15</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Enter appropriate Details of Your Test Report:
+					</span>
+				</div>
+
+				<form class="login100-form validate-form" method="GET" action="http://localhost:3000/user">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Id is required">
+						<span class="label-input100">Id</span>
+						<input class="input100" type="number" name="Id" placeholder="Enter Id">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Radius_mean is required">
+						<span class="label-input100">Radius_mean</span>
+						<input class="input100" type="number" name="Radius_mean" placeholder="Enter Radius_mean">
+						<span class="focus-input100"></span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Texture_mean is required">
+						<span class="label-input100">Texture_mean</span>
+						<input class="input100" type="number" name="Texture_mean" placeholder="Enter Texture_mean">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Perimeter_mean is required">
+						<span class="label-input100">Perimeter_mean</span>
+						<input class="input100" type="number" name="Perimeter_mean" placeholder="Enter Perimeter_mean">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Area_mean is required">
+						<span class="label-input100">Area_mean</span>
+						<input class="input100" type="number" name="Area_mean" placeholder="Enter Area_mean">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Smoothness_mean is required">
+						<span class="label-input100">Smoothness_mean</span>
+						<input class="input100" type="number" name="Smoothness_mean" placeholder="Enter Smoothness_mean">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Compactness_mean is required">
+						<span class="label-input100">Compactness_mean</span>
+						<input class="input100" type="number" name="Compactness_mean" placeholder="Enter Compactness_mean">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Concavity_mean is required">
+						<span class="label-input100">Concavity_mean</span>
+						<input class="input100" type="number" name="Concavity_mean" placeholder="Enter Concavity_mean">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Concave_Points_mean is required">
+						<span class="label-input100">Concave_Points_mean</span>
+						<input class="input100" type="number" name="Concave_Points_mean" placeholder="Enter Concave Points_mean">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Symmetry_mean is required">
+						<span class="label-input100">Symmetry_mean</span>
+						<input class="input100" type="number" name="Symmetry_mean" placeholder="Enter Symmetry_mean">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Fractal_Dimension_mean is required">
+						<span class="label-input100">Fractal_Dimension_mean</span>
+						<input class="input100" type="number" name="Fractal_Dimension_mean" placeholder="Enter Fractal_Dimension_mean">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Radius_error is required">
+						<span class="label-input100">Radius_error</span>
+						<input class="input100" type="number" name="Radius_error" placeholder="Enter Radius_error">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Texture_error is required">
+						<span class="label-input100">Texture_error</span>
+						<input class="input100" type="number" name="Texture_error" placeholder="Enter Radius_error">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Perimeter_error is required">
+						<span class="label-input100">Perimeter_error</span>
+						<input class="input100" type="number" name="Perimeter_error" placeholder="Enter Perimeter_error">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Area_error is required">
+						<span class="label-input100">Area_error</span>
+						<input class="input100" type="number" name="Area_error" placeholder="Enter Area_error">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Smoothness_error is required">
+						<span class="label-input100">Smoothness_error</span>
+						<input class="input100" type="number" name="Smoothness_error" placeholder="Enter Smoothness_error">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Compactness_error is required">
+						<span class="label-input100">Compactness_error</span>
+						<input class="input100" type="number" name="Compactness_error" placeholder="Enter Compactness_error">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Concavity_error is required">
+						<span class="label-input100">Concavity_error</span>
+						<input class="input100" type="number" name="Concavity_error" placeholder="Enter Concavity_error">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Concave_Points_error is required">
+						<span class="label-input100">Concave_Points_error</span>
+						<input class="input100" type="number" name="Concave_Points_error" placeholder="Enter Concave_Points_error">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Symmetry_error is required">
+						<span class="label-input100">Symmetry_error</span>
+						<input class="input100" type="number" name="Symmetry_error" placeholder="Enter Symmetry_error">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Fractal_Dimension_error is required">
+						<span class="label-input100">Fractal_Dimension_error</span>
+						<input class="input100" type="number" name="Fractal_Dimension_error" placeholder="Enter Fractal_Dimension_error">
+						<span class="focus-input100"></span>
+
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Radius_worst is required">
+							<span class="label-input100">Radius_worst</span>
+							<input class="input100" type="number" name="Radius_worst" placeholder="Enter Radius_worst">
+							<span class="focus-input100"></span>
+						</div>
+						
+						
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Texture_worst is required">
+							<span class="label-input100">Texture_worst</span>
+							<input class="input100" type="number" name="Texture_worst" placeholder="Enter Texture_worst">
+							<span class="focus-input100"></span>
+						</div>
+	
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Perimeter_worst is required">
+							<span class="label-input100">Perimeter_worst</span>
+							<input class="input100" type="number" name="Perimeter_worst" placeholder="Enter Perimeter_worst">
+							<span class="focus-input100"></span>
+						</div>
+	
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Area_worst is required">
+							<span class="label-input100">Area_worst</span>
+							<input class="input100" type="number" name="Area_worst" placeholder="Enter Area_mean">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Smoothness_worst is required">
+							<span class="label-input100">Smoothness_worst</span>
+							<input class="input100" type="number" name="Smoothness_worst" placeholder="Enter Smoothness_worst">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Compactness_worst is required">
+							<span class="label-input100">Compactness_worst</span>
+							<input class="input100" type="number" name="Compactness_worst" placeholder="Enter Compactnness_worst">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Concavity_worst is required">
+							<span class="label-input100">Concavity_worst</span>
+							<input class="input100" type="number" name="Concavity_worst" placeholder="Enter Concavity_worst">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Concave_Points_worst is required">
+							<span class="label-input100">Concave_Points_worst</span>
+							<input class="input100" type="number" name="Concave_Points_worst" placeholder="Enter Concave_Points_worst">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Symmetry_worst is required">
+							<span class="label-input100">Symmetry_worst</span>
+							<input class="input100" type="number" name="Symmetry_worst" placeholder="Enter Symmetry_worst">
+							<span class="focus-input100"></span>
+						</div>
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Fractal_Dimension_worst is required">
+							<span class="label-input100">Fractal_Dimension_worst</span>
+							<input class="input100" type="number" name="Fractal Dimension_worst" placeholder="Enter Fractal_Dimension_worst">
+							<span class="focus-input100"></span>
+						</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
